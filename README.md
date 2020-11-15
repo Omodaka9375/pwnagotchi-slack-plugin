@@ -1,11 +1,9 @@
 # pwnagotchi-slack-plugin
 Let pwnagotchi post to your Slack!
 
-![Gotchi on Slack]("gotchi.png")
+![](gotchi.png?raw=true)
 
 ## The Slack Part
-This is the part you would need to modify and integrate into your script.
-
 Make a Slack bot and add it your workplace as normal. Copy your **bot token**. Don't forget to add file upload and chat write permissions to the bot!
 
 Instructions here: [Slack API token](https://slack.com/help/articles/215770388-Create-and-regenerate-API-tokens) 
@@ -23,14 +21,19 @@ To do it's job pwnagotchi needs three parameters "token", "channel" and "title".
 - Navigate to /usr/local/share/pwnagotchi/availaible-plugins/ on your pwnagotchi
 - Paste slack.py and slack.yml into this directory
 - Navigate to /etc/pwnagotchi/config.toml and check if entries exist:
--- main.plugins.slack.enabled = true
--- main.plugins.slack.token = "YOUR-BOT-TOKEN-HERE"
--- main.plugins.slack.channel = "YOUR-CHANNEL"
--- main.plugins.slack.title = "POST-TITLE"
+  - main.plugins.slack.enabled = true
+  - main.plugins.slack.token = "YOUR-BOT-TOKEN-HERE"
+  - main.plugins.slack.channel = "YOUR-CHANNEL"
+  - main.plugins.slack.title = "POST-TITLE"
 
 If not add the to the main.plugins.slack.* list and fill in the defaults.
 
 ## How to 
 Every time you enter manual mode (eg. after a session) and have internet your pwnagotchi will post the report as PNG file, but only if new handshakes arived.
 
-Thats it, reboot or enable the slack plugin from plugins page to start :)
+Enable the slack plugin from plugins page:
+![](plugins.png?raw=true)
+
+![](post.png?raw=true)
+
+**Thats it, you are good to go!**
