@@ -1,0 +1,5 @@
+slack:
+  enabled: false # requires slackclient module to work (pip3 install slackclient)
+  token: ~
+  channel: ~
+  title: ~
