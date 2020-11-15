@@ -1,5 +1,4 @@
 import logging
-from pwnagotchi.voice import Voice
 import pwnagotchi.plugins as plugins
 import os
 import requests
