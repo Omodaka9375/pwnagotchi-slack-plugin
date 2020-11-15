@@ -31,13 +31,15 @@ If not add the above to the main.plugins.slack.* list and fill in the defaults.
 
 ![](conf.png?raw=true)
 
+## Enable the slack plugin from plugins page
+
+![](plugins.png?raw=true)
+
 ## How does it work 
+
 Every time you enter manual mode (eg. after a session) and have internet your pwnagotchi will post the report as PNG file, but only if new handshakes arived.
 
 ![](post.png?raw=true)
 
-Enable the slack plugin from plugins page:
 
-![](plugins.png?raw=true)
-
-**Thats it, you are good to go!**
+## Thats it, you are good to go!
