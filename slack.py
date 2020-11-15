@@ -4,7 +4,6 @@ import os
 import requests
 import subprocess
 
-
 class Slack(plugins.Plugin):
     __author__ = 'branislav.djalic@gmail.com'
     __version__ = '1.0.0'
@@ -62,3 +61,5 @@ class Slack(plugins.Plugin):
             except Exception as e:
                 logging.exception("Slack: error while sending message")
                 logging.debug(e)
+
+                
