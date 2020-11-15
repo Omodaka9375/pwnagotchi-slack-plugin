@@ -27,11 +27,11 @@ To do it's job pwnagotchi needs three parameters "token", "channel" and "title".
   - main.plugins.slack.channel = "YOUR-CHANNEL"
   - main.plugins.slack.title = "POST-TITLE"
 
-If not add the to the main.plugins.slack.* list and fill in the defaults.
+If not add the above to the main.plugins.slack.* list and fill in the defaults.
 
 ![](conf.png?raw=true)
 
-## How to 
+## How does it work 
 Every time you enter manual mode (eg. after a session) and have internet your pwnagotchi will post the report as PNG file, but only if new handshakes arived.
 
 ![](post.png?raw=true)
