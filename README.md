@@ -1,7 +1,7 @@
 # pwnagotchi-slack-plugin
 Let pwnagotchi post to your Slack!
 
-![Gotchi on Slack]("images/gotchi.png")
+![Gotchi on Slack]("gotchi.png")
 
 ## The Slack Part
 This is the part you would need to modify and integrate into your script.
