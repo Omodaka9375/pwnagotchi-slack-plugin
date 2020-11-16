@@ -31,6 +31,11 @@ If not add the above to the main.plugins.slack.* list and fill in the defaults.
 
 ![](conf.png?raw=true)
 
+## Install the plugin
+- SSH to your Pi and type: `pwnagotchi plugins list`
+- You should see Slack plugin ready and available in the list
+- Run: `pwnagotchi plugins install slack`
+
 ## Enable the slack plugin from plugins page
 
 ![](plugins.png?raw=true)
